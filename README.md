@@ -136,9 +136,6 @@ pytest tests/ -v
 
 ## 💡 Design Decisions
 
-**Why a dedicated agent instead of a JARVIS tool?**
-A recipe pipeline involves chained reasoning: vision → ingredient extraction → constraint checking → substitution → recipe generation. That's too complex for a single tool. A dedicated agent with specialized culinary tools gives much better results and is easier to extend.
-
 **Why `temperature=0.3` instead of 0?**
 Cooking benefits from slight creativity. A fully deterministic model (temp=0) tends to always suggest the same obvious dishes. A small temperature nudge produces more interesting, varied recipes without losing coherence.
 
@@ -149,12 +146,14 @@ GPT-4o has the best food recognition accuracy. The vision prompt requests struct
 
 ## 👤 Author
 
-**Bassirou** — AI Engineer · LangChain · Python
+**Bassirou** — AI Engineer  
+Specializing in LangChain, RAG pipelines, and production AI systems.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/bassirou)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/bassirou-thioune-01b9131b6/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/thiouneba)
 
 ---
 
 ## 📄 License
 
-MIT
+MIT — feel free to use, fork, and build on this.
