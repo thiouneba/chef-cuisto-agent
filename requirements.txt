@@ -1,0 +1,24 @@
+# Core
+langchain==0.3.25
+langchain-core==0.3.58
+langchain-openai==0.3.16
+langchain-community==0.3.24
+
+# API
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Config
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# Web search
+duckduckgo-search==7.5.3
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.25.3
+
+# Dev
+python-dotenv==1.1.0
