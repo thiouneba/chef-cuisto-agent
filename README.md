@@ -1,6 +1,6 @@
 # 🍳 Chef Cuisto Agent
 
-> An autonomous AI Chef powered by **LangChain + GPT-4o**. Give it your ingredients — via photo or text — and it generates a complete, step-by-step recipe that strictly respects your dietary constraints.
+> An autonomous multimodal cooking agent built with **LangChain and GPT-4o**, capable of processing both textual and visual ingredient inputs. The system leverages an agentic workflow to extract structured ingredient data, enforce dietary constraints, and generate coherent, step-by-step recipes through a multi-stage reasoning pipeline.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
