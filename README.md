@@ -1,4 +1,4 @@
-# 🍳 Chef Cuisto Agent
+#  Chef Cuisto Agent
 
 > An autonomous multimodal AI cooking agent built with **LangChain and GPT-4o**, capable of processing both textual and visual ingredient inputs. The system leverages an agentic workflow to extract structured ingredient data, enforce dietary constraints, and generate coherent, step-by-step recipes through a multi-stage reasoning pipeline.
 
@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ What it does
+##  What it does
 
 1. **You send** a photo of your fridge/ingredients OR a text list
 2. **GPT-4o Vision** analyzes the image and identifies all ingredients
@@ -21,7 +21,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 chef-cuisto-agent/
@@ -44,7 +44,7 @@ chef-cuisto-agent/
 
 ---
 
-## 🛠️ Culinary Tools
+##  Culinary Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -57,7 +57,7 @@ chef-cuisto-agent/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 git clone https://github.com/bassirou/chef-cuisto-agent.git
@@ -74,11 +74,11 @@ cp .env.example .env  # Add your OPENAI_API_KEY
 ```bash
 python main.py
 
-🧑 Your ingredients: chicken breast, zucchini, tomatoes, garlic, olive oil, lemon
+ Your ingredients: chicken breast, zucchini, tomatoes, garlic, olive oil, lemon
 
-👨‍🍳 Chef Cuisto:
-🍽️ Provençal Chicken with Zucchini...
-⏱️ Prep: 10 min | Cook: 25 min | Total: 35 min
+ Chef Cuisto:
+ Provençal Chicken with Zucchini...
+ Prep: 10 min | Cook: 25 min | Total: 35 min
 ...
 ```
 
@@ -118,7 +118,7 @@ curl -X POST "http://localhost:8000/recipe/from-image?session_id=user_42" \
 
 ---
 
-## 🥗 Supported Dietary Constraints
+##  Supported Dietary Constraints
 
 `vegetarian` · `vegan` · `gluten-free` · `dairy-free` · `nut-free` · `halal` · `kosher` · `low-carb` · `keto` · `paleo` · `no-pork` · `no-seafood` · `no-eggs` · `low-sodium` · `diabetic-friendly`
 
@@ -126,7 +126,7 @@ Constraints persist across all requests in a session. Only a full reset clears t
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 pytest tests/ -v
@@ -134,7 +134,7 @@ pytest tests/ -v
 
 ---
 
-## 💡 Design Decisions
+##  Design Decisions
 
 **Why `temperature=0.3` instead of 0?**
 Cooking benefits from slight creativity. A fully deterministic model (temp=0) tends to always suggest the same obvious dishes. A small temperature nudge produces more interesting, varied recipes without losing coherence.
@@ -144,7 +144,7 @@ GPT-4o has the best food recognition accuracy. The vision prompt requests struct
 
 ---
 
-## 👤 Author
+##  Author
 
 **Bassirou** — AI Engineer  
 Specializing in LangChain, RAG pipelines, and production AI systems.
@@ -154,6 +154,6 @@ Specializing in LangChain, RAG pipelines, and production AI systems.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — feel free to use, fork, and build on this.
